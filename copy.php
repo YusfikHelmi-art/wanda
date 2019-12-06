@@ -100,9 +100,7 @@ function claim($token, $data)
 echo "Choose Register? Register = 2: ";
 $type = trim(fgets(STDIN));
 if($type == 2){
-echo "Auto Register + Claim voucher gofood\n";
-echo "Thank To: Yusfik Helmi\n";
-echo " I love You kak wanda\n";
+echo "Auto Register + Claim voucher\n";
 echo "Input 62 For ID and 1 For US ya kak wanda\n";
 echo "Enter Number kak: ";
 $nope = trim(fgets(STDIN));
